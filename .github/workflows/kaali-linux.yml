@@ -34,7 +34,7 @@ jobs:
          run: |
            cd kali
            docker build . -t kali
-           docker run kaali
+           docker run kali
        - name: loop kali-linux server
          continue-on-error: true
          run: |
